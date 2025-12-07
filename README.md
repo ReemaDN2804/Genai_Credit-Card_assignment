@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 # GenAI Credit Card Assistant
 
 A comprehensive AI-powered credit card assistant that provides intelligent customer support across multiple channels (web, mobile, WhatsApp, RCS) and interfaces (text and voice). Built with Node.js, Express, React, and Google Gemini AI.
 
-## 🎯 Value Proposition
+## Value Proposition
 
 This assistant helps credit card customers:
 - **Get instant answers** to account, transaction, and billing questions via natural language
@@ -11,7 +11,7 @@ This assistant helps credit card customers:
 - **Access support** through their preferred channel (web, app, WhatsApp, RCS) and medium (text or voice)
 - **Receive personalized responses** based on account context and transaction history
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Backend
 - **Node.js + Express**: Lightweight, fast, and widely supported
@@ -29,7 +29,7 @@ This assistant helps credit card customers:
 - **Modular architecture**: Clear separation between NLU, orchestration, RAG, and action execution
 - **Channel-agnostic**: Single backend serves web, WhatsApp, RCS, and phone
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18+ and npm
@@ -93,7 +93,7 @@ This assistant helps credit card customers:
    - Backend API: http://localhost:3001
    - API Docs: See `backend/docs/api_contracts.md`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 genai-creditcard-assistant/
@@ -127,9 +127,6 @@ genai-creditcard-assistant/
 │       │   ├── api.js
 │       │   └── nlu.js
 │       └── styles.css
-├── infra/
-│   ├── architecture.md
-│   └── architecture-diagram.drawio
 ├── demo/
 │   ├── demo_script.md
 │   └── demo_recording_instructions.md
@@ -138,7 +135,7 @@ genai-creditcard-assistant/
     └── test_plan.md
 ```
 
-## 🧪 Running Tests
+## Running Tests
 
 ### Sample Queries
 Test the assistant with pre-defined queries:
@@ -180,7 +177,7 @@ curl -X POST http://localhost:3001/api/v1/dispute \
 
 See `backend/docs/api_contracts.md` for complete API documentation.
 
-## 🔄 Replacing Gemini with Another LLM
+## Replacing Gemini with Another LLM
 
 The codebase is designed to be LLM-agnostic. To swap Gemini for another provider:
 
@@ -203,24 +200,8 @@ The codebase is designed to be LLM-agnostic. To swap Gemini for another provider
 
 The orchestrator (`server.js`) remains unchanged - it only calls the NLU service interface.
 
-## 📊 Architecture Diagram
 
-### Generate Diagram
-
-1. Open [diagrams.net](https://app.diagrams.net/) (formerly draw.io)
-2. Import `infra/architecture-diagram.drawio` OR
-3. Follow the textual instructions in `infra/architecture.md`
-
-The diagram shows:
-- User interfaces (web, mobile, WhatsApp, RCS, phone)
-- Channel adapters
-- NLU layer (Gemini)
-- Orchestrator
-- Action executor
-- RAG/KB retriever
-- Response generator
-
-## 🔐 Security & Privacy
+## Security & Privacy
 
 See `infra/architecture.md` for detailed security considerations:
 - Encryption at rest and in transit (HTTPS/TLS)
@@ -230,7 +211,7 @@ See `infra/architecture.md` for detailed security considerations:
 - GDPR/PCI compliance considerations
 - Rate limiting recommendations
 
-## 📝 Key Features
+## Key Features
 
 - **Multi-channel support**: Web, mobile app, WhatsApp, RCS, phone
 - **Multi-modal**: Text and voice interactions
@@ -240,32 +221,25 @@ See `infra/architecture.md` for detailed security considerations:
 - **Personalization**: Uses user context from account data
 - **Fallback handling**: Escalates to human agents when needed
 
-## 🎬 Demo
+## Demo
 
 See `demo/demo_script.md` for a complete 8-10 minute walkthrough script.
 
-## 🤖 AI Co-Pilot Report
-
-See `demo/ai_copilot_report.md` for details on how Gemini and Cursor AI were used to build this project.
-
-## 📋 Scoring Checklist
+##  Scoring Checklist
 
 See `tests/scoring_checklist.md` for reviewer evaluation criteria.
 
-## 🛣 Roadmap
+## Roadmap
 
-- [ ] Vector database integration (Pinecone/Weaviate) for improved RAG
-- [ ] Real WhatsApp/Twilio webhook integration
-- [ ] Advanced voice processing (noise reduction, speaker identification)
-- [ ] Multi-language support
-- [ ] Analytics dashboard
-- [ ] A/B testing framework for prompt optimization
+- Vector database integration (Pinecone/Weaviate) for improved RAG
+- Voice processing (noise reduction, speaker identification)
+- A/B testing framework for prompt optimization
 
-## 📄 License
+## License
 
 MIT License - see LICENSE file for details
 
-## 🤝 Contributing
+## Contributing
 
 This is a demo project for a Product Manager Intern assignment. For production use, consider:
 - Database integration (PostgreSQL/MongoDB)
@@ -274,10 +248,9 @@ This is a demo project for a Product Manager Intern assignment. For production u
 - Monitoring and observability (Datadog, New Relic)
 - CI/CD pipeline
 
-## 📧 Contact
+## Contact
 
 For questions or issues, please open a GitHub issue.
 =======
 # Genai_Credit-Card_assignment
 GenAI-powered Credit Card Assistant — product assignment prototype with chat + voice bot, mock APIs, RAG knowledge base, and channel-agnostic architecture.
->>>>>>> ccd6f5ef403d5f92fa66ebfd8c605af4ba3f63d9
