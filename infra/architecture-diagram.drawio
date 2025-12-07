@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.4">
+  <diagram name="GenAI Credit Card Assistant Architecture" id="architecture">
+    <mxGraphModel dx="1034" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="2000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="web" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Web&#xa;(Text)" vertex="1">
+          <mxGeometry height="60" width="120" x="550" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="mobile" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Mobile App&#xa;(Text/Voice)" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="whatsapp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="WhatsApp&#xa;(Text)" vertex="1">
+          <mxGeometry height="60" width="120" x="850" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="rcs" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="RCS&#xa;(Text)" vertex="1">
+          <mxGeometry height="60" width="120" x="1000" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="phone" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Phone&#xa;(Voice)" vertex="1">
+          <mxGeometry height="60" width="120" x="1150" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="channelAdapter" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Channel Adapters&#xa;(Webhook Handlers)" vertex="1">
+          <mxGeometry height="60" width="200" x="800" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="orchestrator" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Message Orchestrator&#xa;(server.js)" vertex="1">
+          <mxGeometry height="60" width="200" x="800" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="nlu" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="NLU Layer (Gemini)&#xa;- Intent Detection&#xa;- Slot Extraction&#xa;- Confidence Scoring" vertex="1">
+          <mxGeometry height="80" width="200" x="800" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="decision" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Decision Point&#xa;(Informational vs Action)" vertex="1">
+          <mxGeometry height="100" width="200" x="800" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="rag" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="RAG Retriever&#xa;(KB Search)" vertex="1">
+          <mxGeometry height="60" width="150" x="550" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="actions" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Action Executor&#xa;(Mock APIs)" vertex="1">
+          <mxGeometry height="60" width="150" x="1000" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="responseGen" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Response Generator (Gemini)&#xa;- Context Assembly&#xa;- Natural Language Gen" vertex="1">
+          <mxGeometry height="80" width="200" x="800" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="channelAdapterResp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Channel Adapter (Format)&#xa;- Text Response&#xa;- SSML (Voice)&#xa;- Rich Media" vertex="1">
+          <mxGeometry height="80" width="200" x="800" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="userResp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="User Response" vertex="1">
+          <mxGeometry height="40" width="100" x="850" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="kb" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="Knowledge Base&#xa;(kb.json)" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="users" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="User Data&#xa;(users.json)" vertex="1">
+          <mxGeometry height="60" width="120" x="1050" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow1" edge="1" parent="1" source="web" style="endArrow=classic;html=1;rounded=0;" target="channelAdapter" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow2" edge="1" parent="1" source="mobile" style="endArrow=classic;html=1;rounded=0;" target="channelAdapter" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow3" edge="1" parent="1" source="whatsapp" style="endArrow=classic;html=1;rounded=0;" target="channelAdapter" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow4" edge="1" parent="1" source="rcs" style="endArrow=classic;html=1;rounded=0;" target="channelAdapter" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow5" edge="1" parent="1" source="phone" style="endArrow=classic;html=1;rounded=0;" target="channelAdapter" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow6" edge="1" parent="1" source="channelAdapter" style="endArrow=classic;html=1;rounded=0;" target="orchestrator" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow7" edge="1" parent="1" source="orchestrator" style="endArrow=classic;html=1;rounded=0;" target="nlu" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow8" edge="1" parent="1" source="nlu" style="endArrow=classic;html=1;rounded=0;" target="decision" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow9" edge="1" parent="1" source="decision" style="endArrow=classic;html=1;rounded=0;" target="rag" value="Informational">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow10" edge="1" parent="1" source="decision" style="endArrow=classic;html=1;rounded=0;" target="actions" value="Actionable">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow11" edge="1" parent="1" source="rag" style="endArrow=classic;html=1;rounded=0;" target="responseGen" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow12" edge="1" parent="1" source="actions" style="endArrow=classic;html=1;rounded=0;" target="responseGen" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow13" edge="1" parent="1" source="responseGen" style="endArrow=classic;html=1;rounded=0;" target="channelAdapterResp" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow14" edge="1" parent="1" source="channelAdapterResp" style="endArrow=classic;html=1;rounded=0;" target="userResp" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow15" edge="1" parent="1" source="kb" style="endArrow=classic;html=1;rounded=0;dashed=1;" target="rag" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow16" edge="1" parent="1" source="users" style="endArrow=classic;html=1;rounded=0;dashed=1;" target="actions" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

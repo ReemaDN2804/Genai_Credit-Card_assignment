@@ -1,0 +1,255 @@
+[
+  {
+    "id": "q001",
+    "category": "Account & Onboarding",
+    "utterance": "I want to activate my new card",
+    "expected_intent": "activate_card",
+    "expected_action": "activate_card",
+    "expected_response_type": "action_confirmation"
+  },
+  {
+    "id": "q002",
+    "category": "Account & Onboarding",
+    "utterance": "How do I activate my credit card?",
+    "expected_intent": "informational_query",
+    "expected_action": null,
+    "expected_response_type": "informational",
+    "expected_kb_category": "Account & Onboarding"
+  },
+  {
+    "id": "q003",
+    "category": "Account & Onboarding",
+    "utterance": "What's my account balance?",
+    "expected_intent": "check_balance",
+    "expected_action": null,
+    "expected_response_type": "informational"
+  },
+  {
+    "id": "q004",
+    "category": "Account & Onboarding",
+    "utterance": "Show me my credit limit",
+    "expected_intent": "check_balance",
+    "expected_action": null,
+    "expected_response_type": "informational"
+  },
+  {
+    "id": "q005",
+    "category": "Card Delivery",
+    "utterance": "When will my card arrive?",
+    "expected_intent": "check_card_delivery",
+    "expected_action": "get_card_status",
+    "expected_response_type": "informational"
+  },
+  {
+    "id": "q006",
+    "category": "Card Delivery",
+    "utterance": "Where is my card?",
+    "expected_intent": "check_card_delivery",
+    "expected_action": "get_card_status",
+    "expected_response_type": "informational"
+  },
+  {
+    "id": "q007",
+    "category": "Card Delivery",
+    "utterance": "How long does card delivery take?",
+    "expected_intent": "informational_query",
+    "expected_action": null,
+    "expected_response_type": "informational",
+    "expected_kb_category": "Card Delivery"
+  },
+  {
+    "id": "q008",
+    "category": "Card Delivery",
+    "utterance": "My card hasn't arrived yet",
+    "expected_intent": "check_card_delivery",
+    "expected_action": "get_card_status",
+    "expected_response_type": "informational"
+  },
+  {
+    "id": "q009",
+    "category": "Transaction & EMI",
+    "utterance": "I want to dispute this charge",
+    "expected_intent": "dispute_transaction",
+    "expected_action": "dispute_transaction",
+    "expected_response_type": "action_confirmation"
+  },
+  {
+    "id": "q010",
+    "category": "Transaction & EMI",
+    "utterance": "This transaction is unauthorized",
+    "expected_intent": "dispute_transaction",
+    "expected_action": "dispute_transaction",
+    "expected_response_type": "action_confirmation"
+  },
+  {
+    "id": "q011",
+    "category": "Transaction & EMI",
+    "utterance": "How does EMI work?",
+    "expected_intent": "informational_query",
+    "expected_action": null,
+    "expected_response_type": "informational",
+    "expected_kb_category": "Transaction & EMI"
+  },
+  {
+    "id": "q012",
+    "category": "Transaction & EMI",
+    "utterance": "Show me my recent transactions",
+    "expected_intent": "informational_query",
+    "expected_action": null,
+    "expected_response_type": "informational"
+  },
+  {
+    "id": "q013",
+    "category": "Transaction & EMI",
+    "utterance": "What's the difference between pending and posted transactions?",
+    "expected_intent": "informational_query",
+    "expected_action": null,
+    "expected_response_type": "informational",
+    "expected_kb_category": "Transaction & EMI"
+  },
+  {
+    "id": "q014",
+    "category": "Bill & Statement",
+    "utterance": "When is my bill due?",
+    "expected_intent": "check_statement",
+    "expected_action": null,
+    "expected_response_type": "informational"
+  },
+  {
+    "id": "q015",
+    "category": "Bill & Statement",
+    "utterance": "How do I download my statement?",
+    "expected_intent": "informational_query",
+    "expected_action": null,
+    "expected_response_type": "informational",
+    "expected_kb_category": "Bill & Statement"
+  },
+  {
+    "id": "q016",
+    "category": "Bill & Statement",
+    "utterance": "Explain my statement",
+    "expected_intent": "informational_query",
+    "expected_action": null,
+    "expected_response_type": "informational",
+    "expected_kb_category": "Bill & Statement"
+  },
+  {
+    "id": "q017",
+    "category": "Repayments",
+    "utterance": "I want to set up autopay",
+    "expected_intent": "set_autopay",
+    "expected_action": "set_autopay",
+    "expected_response_type": "action_confirmation"
+  },
+  {
+    "id": "q018",
+    "category": "Repayments",
+    "utterance": "Enable autopay for minimum amount",
+    "expected_intent": "set_autopay",
+    "expected_action": "set_autopay",
+    "expected_response_type": "action_confirmation"
+  },
+  {
+    "id": "q019",
+    "category": "Repayments",
+    "utterance": "How do I make a payment?",
+    "expected_intent": "informational_query",
+    "expected_action": null,
+    "expected_response_type": "informational",
+    "expected_kb_category": "Repayments"
+  },
+  {
+    "id": "q020",
+    "category": "Repayments",
+    "utterance": "I want to pay $100",
+    "expected_intent": "make_payment",
+    "expected_action": "repay_amount",
+    "expected_response_type": "action_confirmation"
+  },
+  {
+    "id": "q021",
+    "category": "Repayments",
+    "utterance": "What's my minimum payment?",
+    "expected_intent": "check_statement",
+    "expected_action": null,
+    "expected_response_type": "informational"
+  },
+  {
+    "id": "q022",
+    "category": "Repayments",
+    "utterance": "How is minimum payment calculated?",
+    "expected_intent": "informational_query",
+    "expected_action": null,
+    "expected_response_type": "informational",
+    "expected_kb_category": "Repayments"
+  },
+  {
+    "id": "q023",
+    "category": "Collections",
+    "utterance": "What's the late fee?",
+    "expected_intent": "informational_query",
+    "expected_action": null,
+    "expected_response_type": "informational",
+    "expected_kb_category": "Collections"
+  },
+  {
+    "id": "q024",
+    "category": "Collections",
+    "utterance": "I missed my payment, what happens?",
+    "expected_intent": "informational_query",
+    "expected_action": null,
+    "expected_response_type": "informational",
+    "expected_kb_category": "Collections"
+  },
+  {
+    "id": "q025",
+    "category": "Account & Onboarding",
+    "utterance": "I want to activate my new card and set autopay for minimum amount",
+    "expected_intent": "multi_intent",
+    "expected_action": ["activate_card", "set_autopay"],
+    "expected_response_type": "action_confirmation"
+  },
+  {
+    "id": "q026",
+    "category": "Account & Onboarding",
+    "utterance": "How do I update my contact information?",
+    "expected_intent": "informational_query",
+    "expected_action": null,
+    "expected_response_type": "informational",
+    "expected_kb_category": "Account & Onboarding"
+  },
+  {
+    "id": "q027",
+    "category": "Account & Onboarding",
+    "utterance": "I lost my card",
+    "expected_intent": "escalate_to_human",
+    "expected_action": null,
+    "expected_response_type": "escalation"
+  },
+  {
+    "id": "q028",
+    "category": "Transaction & EMI",
+    "utterance": "Convert this purchase to EMI",
+    "expected_intent": "informational_query",
+    "expected_action": null,
+    "expected_response_type": "informational",
+    "expected_kb_category": "Transaction & EMI"
+  },
+  {
+    "id": "q029",
+    "category": "Card Delivery",
+    "utterance": "Track my card delivery",
+    "expected_intent": "check_card_delivery",
+    "expected_action": "get_card_status",
+    "expected_response_type": "informational"
+  },
+  {
+    "id": "q030",
+    "category": "Repayments",
+    "utterance": "Disable autopay",
+    "expected_intent": "set_autopay",
+    "expected_action": "set_autopay",
+    "expected_response_type": "action_confirmation"
+  }
+]
+
