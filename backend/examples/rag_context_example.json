@@ -1,0 +1,36 @@
+{
+  "description": "Example RAG context selection for a card delivery question",
+  "user_query": "When will my card arrive?",
+  "rag_retrieval_method": "keyword_based",
+  "retrieved_kb_items": [
+    {
+      "id": "kb004",
+      "category": "Card Delivery",
+      "title": "Expected card delivery timeframe",
+      "content": "New cards are typically delivered within 7-10 business days after approval. Replacement cards usually arrive within 5-7 business days. Express delivery (1-2 business days) is available for an additional fee. You'll receive tracking information via email or SMS once your card ships. If your card hasn't arrived after 10 business days, please contact us.",
+      "keywords": ["delivery", "card delivery", "when will card arrive", "shipping", "tracking", "delivery time"],
+      "tags": ["delivery", "shipping", "card delivery"],
+      "relevance_score": 8.5
+    },
+    {
+      "id": "kb005",
+      "category": "Card Delivery",
+      "title": "How to track your card delivery",
+      "content": "To track your card delivery: 1) Check the email confirmation sent when your card was shipped (contains tracking number), 2) Log into your account and visit the Card Management section, 3) Use our mobile app's card tracking feature, or 4) Ask our AI assistant for delivery status. You'll receive SMS updates if you've opted in for notifications.",
+      "keywords": ["track", "tracking", "card tracking", "delivery status", "where is my card", "track card"],
+      "tags": ["tracking", "delivery", "status"],
+      "relevance_score": 7.0
+    },
+    {
+      "id": "kb006",
+      "category": "Card Delivery",
+      "title": "What to do if your card hasn't arrived",
+      "content": "If your card hasn't arrived within the expected timeframe (7-10 business days for new cards, 5-7 for replacements), please: 1) Verify your mailing address in your account settings, 2) Check with your local post office, 3) Contact us to report a missing card - we'll cancel the original and issue a replacement, 4) Consider requesting express delivery for the replacement. We can also arrange for card pickup at a branch if available in your area.",
+      "keywords": ["card not received", "missing card", "card lost in mail", "card not arrived", "delayed delivery"],
+      "tags": ["delivery", "missing card", "support"],
+      "relevance_score": 6.5
+    }
+  ],
+  "notes": "Top 3 items are returned. In production, use vector search for better relevance. Relevance scores are calculated based on keyword matches (title matches = 3 points, keyword matches = 2 points, content matches = 1 point)."
+}
+

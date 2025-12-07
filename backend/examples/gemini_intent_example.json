@@ -1,0 +1,22 @@
+{
+  "description": "Example Gemini JSON response for intent detection",
+  "user_message": "I want to activate my new card and set autopay for minimum amount",
+  "gemini_prompt": "You are an NLU system for a credit card assistant. Analyze the user's message and extract intent, slots, confidence, and suggested actions. User message: \"I want to activate my new card and set autopay for minimum amount\"",
+  "gemini_response": {
+    "intent": "multi_intent",
+    "slots": {
+      "cardId": "card123",
+      "enabled": true,
+      "amount": "minimum",
+      "accountId": "acc1"
+    },
+    "confidence": 0.92,
+    "must_handoff": false,
+    "suggested_actions": [
+      "activate_card",
+      "set_autopay"
+    ]
+  },
+  "notes": "This is a multi-intent query. The system should execute both actions sequentially or in parallel."
+}
+

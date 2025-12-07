@@ -1,0 +1,101 @@
+{
+  "user1": {
+    "userId": "user1",
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phone": "+1234567890",
+    "cards": [
+      {
+        "cardId": "card123",
+        "last4": "1234",
+        "type": "Visa",
+        "status": "active",
+        "deliveryStatus": "delivered",
+        "deliveryDate": "2024-01-15",
+        "activatedDate": "2025-12-07T09:26:44.775Z"
+      }
+    ],
+    "accounts": [
+      {
+        "accountId": "acc1",
+        "balance": 1050.5,
+        "creditLimit": 5000,
+        "availableCredit": 3949.5,
+        "autopay": {
+          "enabled": true,
+          "amount": "minimum",
+          "paymentDate": "2024-01-20"
+        }
+      }
+    ],
+    "transactions": [
+      {
+        "txnId": "txn456",
+        "date": "2024-01-20",
+        "merchant": "Amazon",
+        "amount": 89.99,
+        "status": "posted",
+        "category": "Shopping"
+      },
+      {
+        "txnId": "txn789",
+        "date": "2024-01-18",
+        "merchant": "Starbucks",
+        "amount": 5.5,
+        "status": "posted",
+        "category": "Food & Dining"
+      }
+    ],
+    "statements": {
+      "lastStatementDate": "2024-01-01",
+      "dueDate": "2024-01-20",
+      "minimumPayment": 35,
+      "totalBalance": 1250.5
+    }
+  },
+  "user2": {
+    "userId": "user2",
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "phone": "+1987654321",
+    "cards": [
+      {
+        "cardId": "card456",
+        "last4": "5678",
+        "type": "Mastercard",
+        "status": "active",
+        "deliveryStatus": "delivered",
+        "deliveryDate": "2023-12-10"
+      }
+    ],
+    "accounts": [
+      {
+        "accountId": "acc2",
+        "balance": 3200.75,
+        "creditLimit": 10000,
+        "availableCredit": 6799.25,
+        "autopay": {
+          "enabled": true,
+          "amount": "full",
+          "paymentDate": "2024-01-25"
+        }
+      }
+    ],
+    "transactions": [
+      {
+        "txnId": "txn101",
+        "date": "2024-01-22",
+        "merchant": "Target",
+        "amount": 150,
+        "status": "pending",
+        "category": "Shopping"
+      }
+    ],
+    "statements": {
+      "lastStatementDate": "2024-01-01",
+      "dueDate": "2024-01-25",
+      "minimumPayment": 95,
+      "totalBalance": 3200.75
+    }
+  }
+}

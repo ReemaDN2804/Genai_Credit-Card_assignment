@@ -1,0 +1,163 @@
+[
+  {
+    "id": "kb001",
+    "category": "Account & Onboarding",
+    "title": "How to activate your credit card",
+    "content": "To activate your credit card, you can: 1) Call the activation number on the sticker attached to your card, 2) Log into your online account and activate through the card management section, 3) Use our mobile app and navigate to Cards > Activate, or 4) Ask our AI assistant to activate it for you. Activation typically takes 1-2 minutes and you'll receive a confirmation once complete.",
+    "keywords": ["activate", "activation", "card", "new card", "activate card"],
+    "tags": ["activation", "onboarding", "card setup"]
+  },
+  {
+    "id": "kb002",
+    "category": "Account & Onboarding",
+    "title": "How to check your account balance",
+    "content": "You can check your account balance by: 1) Logging into your online banking account, 2) Using our mobile app (available on iOS and Android), 3) Calling our automated phone service, 4) Asking our AI assistant, or 5) Checking your latest statement. Your current balance includes all posted transactions and pending charges.",
+    "keywords": ["balance", "account balance", "check balance", "current balance", "available credit"],
+    "tags": ["balance", "account", "inquiry"]
+  },
+  {
+    "id": "kb003",
+    "category": "Account & Onboarding",
+    "title": "How to view your credit limit",
+    "content": "Your credit limit is displayed in your online account dashboard, mobile app, and monthly statements. You can also ask our AI assistant for your current credit limit. The limit represents the maximum amount you can charge to your card. If you need to increase your limit, you can request it through your account settings or by contacting customer service.",
+    "keywords": ["credit limit", "limit", "credit line", "maximum credit", "spending limit"],
+    "tags": ["credit limit", "account", "limits"]
+  },
+  {
+    "id": "kb004",
+    "category": "Card Delivery",
+    "title": "Expected card delivery timeframe",
+    "content": "New cards are typically delivered within 7-10 business days after approval. Replacement cards usually arrive within 5-7 business days. Express delivery (1-2 business days) is available for an additional fee. You'll receive tracking information via email or SMS once your card ships. If your card hasn't arrived after 10 business days, please contact us.",
+    "keywords": ["delivery", "card delivery", "when will card arrive", "shipping", "tracking", "delivery time"],
+    "tags": ["delivery", "shipping", "card delivery"]
+  },
+  {
+    "id": "kb005",
+    "category": "Card Delivery",
+    "title": "How to track your card delivery",
+    "content": "To track your card delivery: 1) Check the email confirmation sent when your card was shipped (contains tracking number), 2) Log into your account and visit the Card Management section, 3) Use our mobile app's card tracking feature, or 4) Ask our AI assistant for delivery status. You'll receive SMS updates if you've opted in for notifications.",
+    "keywords": ["track", "tracking", "card tracking", "delivery status", "where is my card", "track card"],
+    "tags": ["tracking", "delivery", "status"]
+  },
+  {
+    "id": "kb006",
+    "category": "Card Delivery",
+    "title": "What to do if your card hasn't arrived",
+    "content": "If your card hasn't arrived within the expected timeframe (7-10 business days for new cards, 5-7 for replacements), please: 1) Verify your mailing address in your account settings, 2) Check with your local post office, 3) Contact us to report a missing card - we'll cancel the original and issue a replacement, 4) Consider requesting express delivery for the replacement. We can also arrange for card pickup at a branch if available in your area.",
+    "keywords": ["card not received", "missing card", "card lost in mail", "card not arrived", "delayed delivery"],
+    "tags": ["delivery", "missing card", "support"]
+  },
+  {
+    "id": "kb007",
+    "category": "Transaction & EMI",
+    "title": "How EMI (Equated Monthly Installment) works",
+    "content": "EMI allows you to convert large purchases into fixed monthly payments over a chosen period (3, 6, 9, 12, 18, or 24 months). Interest rates vary by tenure and merchant. To convert a transaction to EMI: 1) Select the transaction in your account, 2) Choose 'Convert to EMI', 3) Select your preferred tenure, 4) Review terms and confirm. The EMI amount will be added to your monthly statement. You can convert eligible transactions within 30 days of purchase.",
+    "keywords": ["emi", "installment", "monthly payment", "convert to emi", "emi plan", "equated monthly installment"],
+    "tags": ["emi", "installments", "payments"]
+  },
+  {
+    "id": "kb008",
+    "category": "Transaction & EMI",
+    "title": "How to view your transaction history",
+    "content": "View your transaction history by: 1) Logging into your online account and navigating to Transactions, 2) Using the mobile app's transaction list (filterable by date, merchant, amount), 3) Downloading statements (PDF/CSV), or 4) Asking our AI assistant. Transactions are categorized and searchable. Pending transactions appear immediately; posted transactions typically show within 1-2 business days.",
+    "keywords": ["transactions", "transaction history", "recent transactions", "view transactions", "payment history"],
+    "tags": ["transactions", "history", "account"]
+  },
+  {
+    "id": "kb009",
+    "category": "Transaction & EMI",
+    "title": "How to dispute a transaction",
+    "content": "To dispute a transaction: 1) Identify the transaction in your account, 2) Click 'Dispute' or contact our AI assistant, 3) Select the reason (unauthorized charge, incorrect amount, duplicate charge, goods not received, etc.), 4) Provide details and any supporting documents, 5) Submit the dispute. We'll investigate within 10 business days and may issue a temporary credit. You can track dispute status in your account or ask our assistant.",
+    "keywords": ["dispute", "dispute transaction", "unauthorized charge", "fraud", "wrong charge", "chargeback"],
+    "tags": ["dispute", "fraud", "transactions"]
+  },
+  {
+    "id": "kb010",
+    "category": "Transaction & EMI",
+    "title": "Understanding pending vs posted transactions",
+    "content": "Pending transactions are charges that have been authorized but not yet finalized by the merchant. They appear immediately but may change in amount (e.g., restaurant tips, gas station holds). Posted transactions are finalized and will appear on your statement. Pending transactions typically post within 1-3 business days. Your available credit reflects pending charges, but interest is only calculated on posted transactions.",
+    "keywords": ["pending", "posted", "pending transaction", "authorization", "transaction status"],
+    "tags": ["transactions", "pending", "posted"]
+  },
+  {
+    "id": "kb011",
+    "category": "Bill & Statement",
+    "title": "When is your bill due",
+    "content": "Your bill due date is typically the same day each month (e.g., the 20th). You can find your exact due date on your monthly statement, in your online account dashboard, or by asking our AI assistant. Payment must be received by 11:59 PM on the due date to avoid late fees. We recommend setting up autopay to ensure timely payments. You can also pay early or make multiple payments throughout the month.",
+    "keywords": ["due date", "bill due", "payment due", "when is payment due", "statement due date"],
+    "tags": ["billing", "due date", "payments"]
+  },
+  {
+    "id": "kb012",
+    "category": "Bill & Statement",
+    "title": "How to download your statement",
+    "content": "Download your statement by: 1) Logging into your online account, going to Statements, selecting the month, and clicking Download (PDF or CSV), 2) Using the mobile app - navigate to Statements and tap Download, 3) Requesting via email through account settings, or 4) Asking our AI assistant to email you a copy. Statements are available for the past 24 months. You can also set up automatic email delivery.",
+    "keywords": ["statement", "download statement", "monthly statement", "pdf statement", "statement download"],
+    "tags": ["statements", "billing", "download"]
+  },
+  {
+    "id": "kb013",
+    "category": "Bill & Statement",
+    "title": "Understanding your statement",
+    "content": "Your statement includes: 1) Account summary (previous balance, payments, new charges, interest, fees, new balance), 2) Transaction list (date, merchant, amount, category), 3) Payment information (minimum payment due, total balance, due date), 4) Rewards summary (if applicable), 5) Important notices. Transactions are listed chronologically. You can view detailed transaction information by clicking on individual items in your online account.",
+    "keywords": ["statement", "read statement", "understand statement", "statement details", "monthly statement"],
+    "tags": ["statements", "billing", "account"]
+  },
+  {
+    "id": "kb014",
+    "category": "Repayments",
+    "title": "How to make a payment",
+    "content": "Make a payment by: 1) Logging into your online account and using Pay Now, 2) Using our mobile app's payment feature, 3) Setting up autopay for automatic monthly payments, 4) Calling our automated phone service, 5) Visiting a branch, 6) Using our AI assistant to initiate payment. Payment methods include bank transfer, debit card, check, or external bank account. Payments typically process within 1-2 business days.",
+    "keywords": ["payment", "make payment", "pay bill", "repay", "payment methods", "how to pay"],
+    "tags": ["payments", "repayment", "billing"]
+  },
+  {
+    "id": "kb015",
+    "category": "Repayments",
+    "title": "How to set up autopay",
+    "content": "Set up autopay by: 1) Logging into your account, going to Payment Settings > Autopay, 2) Using the mobile app - navigate to Payments > Autopay, 3) Asking our AI assistant to set it up for you. Choose payment amount (minimum payment, full balance, or custom amount), select payment date (due date or custom), and link a bank account or debit card. You'll receive email confirmations before each payment. You can modify or cancel autopay anytime.",
+    "keywords": ["autopay", "automatic payment", "set autopay", "auto pay", "recurring payment", "autopay setup"],
+    "tags": ["autopay", "payments", "automation"]
+  },
+  {
+    "id": "kb016",
+    "category": "Repayments",
+    "title": "Minimum payment calculation",
+    "content": "Your minimum payment is typically calculated as: the greater of (a) 2-3% of your total balance, or (b) $25-$35 (varies by card). It includes any past due amounts, fees, and interest. Paying only the minimum will result in interest charges on the remaining balance. To avoid interest, pay the full statement balance by the due date. You can find your exact minimum payment on your statement or by asking our assistant.",
+    "keywords": ["minimum payment", "min payment", "minimum due", "how much to pay", "payment amount"],
+    "tags": ["payments", "minimum payment", "billing"]
+  },
+  {
+    "id": "kb017",
+    "category": "Collections",
+    "title": "Late fee policy",
+    "content": "A late fee is charged if your minimum payment is not received by 11:59 PM on the due date. Late fees typically range from $25-$40 depending on your card type and account history. Multiple late payments may result in increased APR and account restrictions. To avoid late fees: set up autopay, set payment reminders, or pay early. If you've been charged a late fee due to extenuating circumstances, contact us - we may be able to waive it.",
+    "keywords": ["late fee", "late payment fee", "penalty", "fee", "late charge"],
+    "tags": ["fees", "collections", "payments"]
+  },
+  {
+    "id": "kb018",
+    "category": "Collections",
+    "title": "What happens if you miss a payment",
+    "content": "If you miss a payment: 1) A late fee is charged (typically $25-$40), 2) Your APR may increase (penalty APR), 3) Your credit score may be negatively impacted, 4) Account restrictions may apply (reduced credit limit, inability to make new purchases). To resolve: make the payment immediately, including any late fees. If you're experiencing financial hardship, contact us - we offer payment plans and hardship programs. Our AI assistant can help you understand options or connect you with a specialist.",
+    "keywords": ["missed payment", "late payment", "overdue", "past due", "payment missed"],
+    "tags": ["collections", "payments", "support"]
+  },
+  {
+    "id": "kb019",
+    "category": "Account & Onboarding",
+    "title": "How to update your contact information",
+    "content": "Update your contact information (email, phone, address) by: 1) Logging into your online account and going to Profile/Settings, 2) Using the mobile app's Settings > Personal Information, 3) Calling customer service, or 4) Asking our AI assistant. Keeping your information current ensures you receive important account updates, statements, and security alerts. Address changes may require verification documents.",
+    "keywords": ["update address", "change email", "update phone", "contact information", "profile update"],
+    "tags": ["account", "profile", "settings"]
+  },
+  {
+    "id": "kb020",
+    "category": "Account & Onboarding",
+    "title": "How to report a lost or stolen card",
+    "content": "If your card is lost or stolen: 1) Immediately report it through our mobile app (Card Management > Report Lost/Stolen), 2) Call our 24/7 hotline, 3) Log into your account and use the Report Card feature, or 4) Ask our AI assistant to report it. We'll immediately block the card and issue a replacement (typically arrives in 5-7 business days). You won't be liable for unauthorized charges if reported promptly. Monitor your account for suspicious activity.",
+    "keywords": ["lost card", "stolen card", "report card", "card lost", "block card", "fraud"],
+    "tags": ["security", "card", "fraud"]
+  }
+]
+
