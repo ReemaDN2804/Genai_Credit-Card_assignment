@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GenAI Credit Card Assistant
 
 A comprehensive AI-powered credit card assistant that provides intelligent customer support across multiple channels (web, mobile, WhatsApp, RCS) and interfaces (text and voice). Built with Node.js, Express, React, and Google Gemini AI.
@@ -276,3 +277,7 @@ This is a demo project for a Product Manager Intern assignment. For production u
 ## 📧 Contact
 
 For questions or issues, please open a GitHub issue.
+=======
+# Genai_Credit-Card_assignment
+GenAI-powered Credit Card Assistant — product assignment prototype with chat + voice bot, mock APIs, RAG knowledge base, and channel-agnostic architecture.
+>>>>>>> ccd6f5ef403d5f92fa66ebfd8c605af4ba3f63d9
