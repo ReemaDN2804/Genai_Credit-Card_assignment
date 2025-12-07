@@ -241,16 +241,13 @@ MIT License - see LICENSE file for details
 
 ## Contributing
 
-This is a demo project for a Product Manager Intern assignment. For production use, consider:
+For production use, consider:
 - Database integration (PostgreSQL/MongoDB)
 - Redis for caching
 - Proper authentication/authorization
 - Monitoring and observability (Datadog, New Relic)
 - CI/CD pipeline
 
-## Contact
-
-For questions or issues, please open a GitHub issue.
 =======
 # Genai_Credit-Card_assignment
 GenAI-powered Credit Card Assistant — product assignment prototype with chat + voice bot, mock APIs, RAG knowledge base, and channel-agnostic architecture.
